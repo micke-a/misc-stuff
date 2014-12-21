@@ -1,9 +1,14 @@
 
-* Model Asset attributes
-  * modelId
-  * name
-  * contentType
-  * value
+
+
+##### Model Asset attributes
+* modelId
+* name
+* contentType
+* value
+
+
+##### Config
 
 ```groovy
 model{
@@ -15,3 +20,7 @@ model{
   }
 }
 ```
+
+##### Access
+
+GET `v{version}/model/{modelId}/asset/{assetName}`
